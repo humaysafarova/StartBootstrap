@@ -3,6 +3,10 @@ body {
   font-weight: 500;
 }
 
+.imgbox img {
+  width: 100%;
+}
+
 header {
   padding: 25px 0;
   background-color: #222529;
@@ -17,4 +21,37 @@ header nav a {
 }
 header nav a:hover {
   color: #efc343;
+}
+
+#welcome {
+  background-image: url("header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#welcome .box h1 {
+  font-size: 36px;
+  color: white;
+  font-style: italic;
+}
+#welcome .box h2 {
+  font-size: 72px;
+  font-weight: 700;
+  font-family: Segoe UI;
+  margin: 32px 0 64px;
+  color: white;
+}
+#welcome .box .btn {
+  background-color: #f6ca45;
+  padding: 20px 40px;
+  transition: 2s;
+}
+#welcome .box .btn:hover {
+  background-color: #d2ac39;
+}
+#welcome .box .btn h5 {
+  font-size: 18px;
+  font-family: Segoe UI;
+  font-weight: 700;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
