@@ -8,25 +8,31 @@ body {
 }
 
 header {
+  padding: 22px 0;
+  background-color: #222529;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  z-index: 100;
 }
-header .imgbox {
-  width: 190px;
-  margin: 36px 0 0 -9px;
+header .menu .imgbox {
+  width: 140px;
+  margin-left: -9px;
+  margin-top: 5px;
 }
-header nav {
-  padding-top: 36px;
-}
-header nav a {
+header .menu nav a {
   margin-right: 30px;
-  font-size: 15px;
+  font-size: 16px;
   font-family: Arial;
 }
-header nav a:hover {
+header .menu nav a:hover {
   color: #efc343;
+}
+@media (max-width: 800px) {
+  header .menu {
+    display: none;
+  }
 }
 
 #welcome {
