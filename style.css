@@ -41,21 +41,20 @@ header .menu nav a:hover {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
 }
 #welcome .box {
   text-align: center;
   font-family: Segoe UI;
 }
 #welcome .box h1 {
-  font-size: 36px;
+  font-size: 24px;
   color: white;
   font-style: italic;
 }
 #welcome .box h2 {
-  font-size: 72px;
+  font-size: 52px;
   font-weight: 700;
-  margin: 32px 0 64px;
+  margin: 25px 0 32px;
   color: white;
 }
 #welcome .box .btn {
@@ -71,6 +70,23 @@ header .menu nav a:hover {
   font-family: Segoe UI;
   font-weight: 700;
   color: white;
+}
+@media (min-width: 800px) {
+  #welcome .box {
+    text-align: center;
+    font-family: Segoe UI;
+  }
+  #welcome .box h1 {
+    font-size: 36px;
+    color: white;
+    font-style: italic;
+  }
+  #welcome .box h2 {
+    font-size: 72px;
+    font-weight: 700;
+    margin: 32px 0 64px;
+    color: white;
+  }
 }
 
 #services {
