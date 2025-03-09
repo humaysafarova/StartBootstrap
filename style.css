@@ -29,11 +29,6 @@ header .menu nav a {
 header .menu nav a:hover {
   color: #efc343;
 }
-@media (max-width: 800px) {
-  header .menu {
-    display: none;
-  }
-}
 
 #welcome {
   padding: 280px 0;
@@ -139,4 +134,48 @@ header .menu nav a:hover {
   color: #6c757d;
   line-height: 1.4;
   text-align: center;
+}
+
+#portfolio {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+#portfolio h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: Segoe UI;
+  font-weight: 700;
+}
+#portfolio h3 {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  margin: 16px 0 64px;
+  text-align: center;
+  color: #6c757d;
+}
+#portfolio .imgbox i {
+  margin-top: 110px;
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  left: 250px;
+}
+#portfolio .imgbox:hover {
+  background-color: #deb63e;
+}
+#portfolio .textbox {
+  text-align: center;
+  padding: 30px 0;
+}
+#portfolio .textbox h2 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Segoe UI;
+}
+#portfolio .textbox h4 {
+  font-size: 20px;
+  font-style: italic;
+  color: #6c757d;
+  margin: 10px 0 20px;
 }/*# sourceMappingURL=style.css.map */
