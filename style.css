@@ -195,4 +195,53 @@ header .menu nav a:hover {
   font-style: italic;
   color: #6c757d;
   margin: 10px 0 20px;
+}
+
+#about {
+  padding: 95px 0;
+}
+#about h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  font-family: Segoe UI;
+}
+#about h3 {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  margin: 15px 0 64px;
+  text-align: center;
+  color: #6c757d;
+}
+#about .box .imgbox {
+  margin-bottom: 40px;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  border: 7px solid #e9ecef;
+  margin-left: 300px;
+}
+#about .box .textbox {
+  padding: 50px;
+  width: 480px;
+}
+#about .box .textbox h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: Segoe UI;
+}
+#about .box .textbox h5 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: Segoe UI;
+}
+#about .box .textbox p {
+  color: #6c757d;
+  font-size: 18px;
+  line-height: 1.4;
 }/*# sourceMappingURL=style.css.map */
