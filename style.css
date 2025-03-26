@@ -169,7 +169,6 @@ header .menu nav a:hover {
   color: white;
 }
 #portfolio .box .imgbox .icon:hover {
-  position: absolute;
   top: 0;
   left: 0;
   display: flex;
@@ -179,7 +178,6 @@ header .menu nav a:hover {
   width: 100%;
   height: 100%;
   background-color: #deb63e;
-  transition: 0.25s;
 }
 #portfolio .box .textbox {
   text-align: center;
@@ -363,7 +361,8 @@ header .menu nav a:hover {
   justify-content: center;
   align-items: center;
 }
-#team .box .textbox ul li .icon {
+#team .box .textbox ul li .icon i {
+  cursor: pointer;
   width: 40px;
   height: 40px;
   border-radius: 100%;
