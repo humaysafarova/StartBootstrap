@@ -405,9 +405,9 @@ header .menu nav a:hover {
   margin-bottom: 64px;
   color: #6c757d;
 }
-#contact input {
+#contact input, #contact textarea {
+  cursor: text;
   padding: 20px;
-  margin-bottom: 25px;
   width: 100%;
   font-family: Segoe UI;
   font-size: 20px;
@@ -416,8 +416,19 @@ header .menu nav a:hover {
   border: 1px solid #ced4da;
   border-radius: 6px;
   color: #212529;
+  margin-bottom: 24px;
 }
-#contact textare {
-  height: 100vh;
-  padding: 20px;
+#contact textarea {
+  height: 100%;
+}
+#contact .btn {
+  background-color: #ffc800;
+  padding: 20px 60px;
+  opacity: 0.65;
+}
+#contact .btn h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Segoe UI;
 }/*# sourceMappingURL=style.css.map */
