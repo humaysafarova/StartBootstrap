@@ -1,47 +1,66 @@
 #portfolio
-    padding: 100px 0
-    background-color: #f8f9fa
-    background-size: cover
-    h1
-        font-size: 40px
+    background-color: #acadaf16
+    padding: 50px 0
+    .textbox
         text-align: center
-        font-family: Segoe UI
-        font-weight: 700
-    h3
-        font-size: 20px
-        font-weight: 400
-        font-style: italic
-        margin: 16px 0 64px
-        text-align: center
-        color: #6c757d
+        padding: 40px 0 55px
+        h1
+            font-size: 40px
+            font-family: Segoe UI
+            font-weight: 700
+            margin-bottom: 10px
+            cursor: text
+        h3
+            font-size: 20px
+            font-style: italic
+            color: #828080
+            cursor: text
+        h2
+            font-size: 24px
+            font-weight: 700
+            font-family: Segoe UI
+            line-height: 1.2
+            margin-top: 13px
+        h4
+            font-size: 20px
+            font-style: italic
+            color: #838489
     .box
+        margin-bottom: 30px
+        background-color: #ffff
+        padding-bottom: 20px
+        .textbox
+            padding: 0
         .imgbox
             position: relative
             .icon
-                cursor: pointer
+                width: 100%
+                display: flex
+                justify-content: center
+                align-items: center
                 position: absolute
+                top: 0
+                bottom: 0
                 opacity: 0
                 font-size: 60px
                 color: #ffff
                 &:hover
-                    top: 0
-                    left: 0
-                    display: flex
-                    justify-content: center
-                    align-items: center
-                    opacity: 1
-                    width: 100%
-                    height: 100%
-                    background-color: #deb63e
+                    cursor: pointer
+                    opacity: 0.9
+                    transition: 0.5s
+                    background-color: #ffc800
+    @media ( max-width: 992px )
+        .box
+            .imgbox
+                width: auto
+    @media ( max-width: 576px )
         .textbox
-            text-align: center
-            padding: 30px 0
-            h2
-                font-size: 24px
-                font-weight: 700
-                font-family: Segoe UI
-            h4
+            h1 
                 font-size: 20px
-                font-style: italic
-                color: #6c757d
-                margin: 10px 0 20px
+            h3 
+                font-size: 18px
+                margin-bottom: 35px
+        .box
+            margin-bottom: 50px
+            .imgbox
+                width: auto

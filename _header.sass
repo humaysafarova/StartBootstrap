@@ -1,21 +1,50 @@
 header
-    padding: 22px 0
-    background-color: #222529
+    padding: 20px 0
+    background-color: #212529
     position: fixed
-    top: 0
     left: 0
     right: 0
-    z-index: 100
+    z-index: 1
+    width: 100%
     .menu
+        display: flex
+        justify-content: space-between
+        align-items: center
         .imgbox
-            width: 140px
-            margin-left: -9px
-            margin-top: 5px
+            width: 170px
         nav
+            display: block
             a
+                cursor: pointer
                 margin-right: 30px
-                font-size: 16px
+                color: #fcf7f7
+                font-size: 18px
                 font-family: Arial
                 &:hover
-                    color: #efc343
+                    color: #f8cf75
+        .btn
+            display: none
+    @media ( max-width: 992px )     
+        .menu
+            width: 100%
+            nav
+                display: none
+            .btn
+                display: flex
+                border-radius: 7px 
+                border: 1px solid #605e5e
+                padding: 7px 13px 7px 11px
+                h3 
+                    color: #a5a2a2
+                    font-weight: 700
+                    font-size: 18px
+                    margin-right: 10px
+                    font-family: Segoe UI
+                .icon
+                    color: #afacac
+                    margin-top: 2px
+    @media ( max-width: 280px )
+        .menu
+            display: flex
+            flex-flow: row wrap
 
