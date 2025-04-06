@@ -86,12 +86,12 @@ header .menu .btn {
   font-family: Segoe UI;
 }
 #welcome .box h1 {
-  font-size: 36px;
+  font-size: 40px;
   color: white;
   font-style: italic;
 }
 #welcome .box h2 {
-  font-size: 72px;
+  font-size: 90px;
   font-weight: 700;
   margin: 35px 0 64px;
   color: white;
@@ -115,12 +115,12 @@ header .menu .btn {
     font-family: Segoe UI;
   }
   #welcome .box h1 {
-    font-size: 24px;
+    font-size: 35px;
     color: white;
     font-style: italic;
   }
   #welcome .box h2 {
-    font-size: 52px;
+    font-size: 70px;
     font-weight: 700;
     margin: 25px 0 32px;
     color: white;
@@ -131,7 +131,7 @@ header .menu .btn {
   padding: 90px 0;
 }
 #services .textbox h1 {
-  font-size: 45px;
+  font-size: 60px;
   font-weight: 700;
   font-family: Segoe UI;
   margin-bottom: 16px;
@@ -166,6 +166,9 @@ header .menu .btn {
   line-height: 1.4;
 }
 @media (max-width: 768px) {
+  #services h1 {
+    font-size: 55px;
+  }
   #services p {
     margin-bottom: 10px;
   }
@@ -180,7 +183,7 @@ header .menu .btn {
   padding: 40px 0 55px;
 }
 #portfolio .textbox h1 {
-  font-size: 40px;
+  font-size: 60px;
   font-family: Segoe UI;
   font-weight: 700;
   margin-bottom: 10px;
@@ -193,7 +196,7 @@ header .menu .btn {
   cursor: text;
 }
 #portfolio .textbox h2 {
-  font-size: 24px;
+  font-size: 29px;
   font-weight: 700;
   font-family: Segoe UI;
   line-height: 1.2;
@@ -240,7 +243,7 @@ header .menu .btn {
 }
 @media (max-width: 576px) {
   #portfolio .textbox h1 {
-    font-size: 20px;
+    font-size: 40px;
   }
   #portfolio .textbox h3 {
     font-size: 18px;
@@ -261,7 +264,7 @@ header .menu .btn {
   margin-bottom: 55px;
 }
 #about .text-center h1 {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 700;
   margin-bottom: 10px;
   font-family: Segoe UI;
@@ -432,7 +435,7 @@ header .menu .btn {
   text-align: center;
 }
 #team h2 {
-  font-size: 40px;
+  font-size: 55px;
   margin: 0 0 16px;
   font-family: Segoe UI;
   font-weight: 700;
@@ -472,7 +475,7 @@ header .menu .btn {
 #team .box .textbox h5 {
   color: #6c757d;
   line-height: 1.4;
-  margin: 0 0 16px;
+  margin: 0 0 10px;
   font-size: 18px;
 }
 #team .box .textbox ul {
@@ -490,6 +493,10 @@ header .menu .btn {
   background-color: #222529;
   margin: 0 10px 20px;
   padding: 10px;
+}
+#team .box .textbox ul li .icon i:hover {
+  background-color: #424649;
+  transition: 0.5s;
 }
 
 #companies {
@@ -509,7 +516,7 @@ header .menu .btn {
   background-color: #212529;
 }
 #contact h1 {
-  font-size: 40px;
+  font-size: 50px;
   margin-bottom: 16px;
   font-weight: 700;
   font-family: Segoe UI;
@@ -563,7 +570,7 @@ header .menu .btn {
 }
 @media (max-width: 576px) {
   #contact .box h1 {
-    font-size: 35px;
+    font-size: 45px;
   }
   #contact .box h3 {
     font-size: 18px;
